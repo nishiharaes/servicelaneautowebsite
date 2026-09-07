@@ -40,3 +40,16 @@ navToggle.addEventListener('click', () => {
   mainNav.classList.toggle('open');
   navToggle.classList.toggle('open');
 });
+
+// Sticky overlay header (only applies where .site-header-overlay exists)
+const overlayHeader = document.querySelector('.site-header-overlay');
+
+if (overlayHeader) {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      overlayHeader.classList.add('scrolled');
+    } else {
+      overlayHeader.classList.remove('scrolled');
+    }
+  });
+}
