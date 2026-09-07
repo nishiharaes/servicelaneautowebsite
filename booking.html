@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta name="description"
+    content="Book your car service, brake repair or diagnostic with ServiceLane Auto, Condell Park's trusted local mechanic. Fast, easy online booking — get in touch today.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Service | ServiceLane Auto – Mechanic Condell Park</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "ServiceLane Auto",
+  "image": "https://servicelaneauto.com/img/logo-transparent-notext.png",
+  "url": "https://servicelaneauto.com",
+  "telephone": "+61433418566",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "16 Ilma St",
+    "addressLocality": "Condell Park",
+    "addressRegion": "NSW",
+    "postalCode": "2200",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -33.9325502,
+    "longitude": 151.0131701
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "areaServed": ["Condell Park", "Bankstown", "Yagoona", "Revesby", "Padstow", "Milperra"],
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61593483371898",
+    "https://www.instagram.com/servicelane.auto/",
+    "https://tiktok.com/servicelaneauto"
+  ]
+}
+</script>
+
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="img/logo.jpeg" alt="ServiceLane Auto - Repair, Maintenance, Service" height="48">
+      </a>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Book a Service</a></li>
+          <li><a href="about.html"> About Us</li>
+        </ul>
+      </nav>
+
+      <a href="booking.html" class="btn btn-primary header-cta">Book Now</a>
+
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <p class="eyebrow">Get In Touch</p>
+      <h1>Book a Mechanic in Condell Park</h1>
+    </div>
+  </section>
+
+  <section class="booking">
+    <div class="container booking-inner">
+      <div class="booking-info">
+        <span class="service-icon"><i class="fa-solid fa-calendar-check"></i></span>
+        <h2>How It Works</h2>
+        <p>Fill out the form and we'll get back to you as soon as possible to confirm your booking</p>
+
+        <ul class="hero-features-col booking-steps">
+          <li><span class="dash"></span>Tell us about your vehicle</li>
+          <li><span class="dash"></span>Choose the service you need</li>
+          <li><span class="dash"></span>We'll get in touch as soon as possible</li>
+        </ul>
+
+        <div class="booking-contact-alt">
+          <p>Prefer to talk directly?</p>
+          <a><i class="fa-solid fa-phone"></i> 0433 418 566</a>
+        </div>
+      </div>
+
+      <form class="booking-form" action="https://formspree.io/f/moeqkary" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="number">Mobile Number *</label>
+          <input type="text" id="number" name="number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="rego">Vehicle Registration *</label>
+          <input type="text" id="rego" name="rego" required>
+        </div>
+
+        <div class="form-group">
+          <label for="service">Service Needed *</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="Car Servicing">Car Servicing</option>
+            <option value="Brakes">Brake Services</option>
+            <option value="Tyres">Tyres</option>
+            <option value="Other">Other / Not Sure</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Additional Details</label>
+          <textarea id="message" name="message" rows="5"
+            placeholder="Tell us anything else about the issue or what you need"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg">Send Enquiry</button>
+      </form>
+    </div>
+  </section>
+
+
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="img/logo-transparent-notext.png" alt="ServiceLane Auto" height="40">
+        <p>ServiceLane Auto is a local mechanic in Condell Park providing car servicing, mechanical repairs, vehicle
+          diagnostics and maintenance for customers across Bankstown and South West Sydney. Perfect for someone who
+          needs a service and seraches "mechanic near me"</p>
+      </div>
+
+      <div class="footer-col" id="footer">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Book a Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+61433418566">0433 418 566</a></li>
+          <li><a href="mailto:info@servicelaneauto.com.au">info@servicelaneauto.com.au</a></li>
+          <li><a href="https://maps.app.goo.gl/KxCBeja8GGFYqPT87">16 Ilma St, Condell Park</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon–Fri: 9:00am – 5:00pm</li>
+          <li>Sat: 9:00am – 5:00pm</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> ServiceLane Auto. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
