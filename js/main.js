@@ -53,3 +53,15 @@ if (overlayHeader) {
     }
   });
 }
+
+// Pre-fill booking form service dropdown from URL parameter
+const serviceSelect = document.getElementById('service');
+
+if (serviceSelect) {
+  const urlParams = new URLSearchParams(window.location.search);
+  const requestedService = urlParams.get('service');
+
+  if (requestedService) {
+    serviceSelect.value = requestedService;
+  }
+}
