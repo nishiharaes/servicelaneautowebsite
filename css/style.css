@@ -206,7 +206,7 @@ img {
   min-height: 620px;
   display: flex;
   align-items: center;
-  background: url('../img/hero.JPG') center/cover no-repeat;
+  background: url('../img/hero.png') center/cover no-repeat;
   margin-bottom: 60px;
   margin-top: 0;
 }
@@ -842,7 +842,7 @@ img {
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  background: url('../img/abouthero.JPG') center/cover no-repeat;
+  background: url('../img/abouthero.png') center/cover no-repeat;
   padding-top: 80px;
 }
 
